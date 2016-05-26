@@ -6,7 +6,7 @@ A plugin to enable storage provisioning/management from Chef knife CLI
 
 # INSTALLATION
 
-gem install knife storage
+    gem install knife storage
 
 # CONFIGURATION
 
@@ -70,6 +70,8 @@ Only XtremIO is supported for now. Support for other arrays, such as Unity, VMAX
     ./sanity_test.sh
 
 # CONTRIBUTION 
+
+Create a fork of the project into your own reposity. Make all your necessary changes and create a pull request with a description on what was added or removed and details explaining the changes in lines of code. If approved, project owners will merge it.
 
 # LICENSE
 
