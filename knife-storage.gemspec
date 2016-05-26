@@ -1,11 +1,12 @@
 Gem::Specification.new do |s|
   s.name        = 'knife-storage'
   s.version     = '0.1.0'
-  s.date        = '2016-05-17'
+  s.date        = '2016-05-26'
   s.summary     = "knife storage"
-  s.description = "a EMC storage plugin for knife"
-  s.authors     = ["KC Bi"]
+  s.description = "A storage plugin for knife"
+  s.authors     = ["KC"]
   s.email       = 'kecheng.bi@emc.com'
+  s.homepage    = 'https://github.com/KCKecheng/knife-storage'
   s.files       = [
                     "knife.rb.sample",
                     "LICENSE",

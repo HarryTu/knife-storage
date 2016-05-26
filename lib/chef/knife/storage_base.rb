@@ -12,23 +12,19 @@ class Chef
     
       def self.common_options
         option :array_user,
-               :short => '-u USERNAME',
-               :long => '--user USERNAME',
+               :long => '--array-user USERNAME',
                :description => 'The user name for the storage array'
         
         option :array_pass,
-               :short => '-p PASSWORD',
-               :long => '--password PASSWORD',
+               :long => '--array-pass PASSWORD',
                :description => 'The password for the storage array'
         
         option :array_host,
-               :short => '-h HOST',
-               :long => '--host HOST',
+               :long => '--array-host HOST',
                :description => 'Storage Array Hostname or IP Address'
         
         option :array_type,
-               :short => '-t TYPE',
-               :long => '--type TYPE',
+               :long => '--array-type TYPE',
                :description => 'Storage array type: XtremIO/VMAX/VNX/etc.'     
       end
     
