@@ -61,6 +61,14 @@ Below are current available commands:
     knife storage volume remove
     knife storage volume show
 
+# TEST
+
+    ./sanity_test.sh
+
+# LICENSE
+
+The project is licensed under the Apache 2.0 License - refer to [LICENSE](LICENSE) for details.
+
 # KNOWN PROBLEMS:
 
 1. Only XtremIO is supported for now. Support for other arrays will be added later.
