@@ -6,7 +6,8 @@ A plugin to enable storage provisioning/management from Chef knife CLI
 
 # INSTALLATION
 
-    gem install knife storage
+    gem build knife-storage.gemspec
+    gem install ./knife-storage-<version>.gem
 
 # CONFIGURATION
 
