@@ -33,5 +33,5 @@ Gem::Specification.new do |s|
                     "lib/chef/knife/storage_volume_show.rb",
                     "sanity_test.sh",
                   ]
-  s.license       = 'Apache-2.0'
+  s.license       = 'MIT'
 end

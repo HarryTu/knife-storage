@@ -37,7 +37,7 @@ knife.rb:
     knife[:array_pass] = 'Credent1al!'
     knife[:array_type] = 'XtremIO'
 
-# COMMANDS
+# USAGE INSTRUCTION
 
 Below are current available commands:
 
@@ -61,16 +61,20 @@ Below are current available commands:
     knife storage volume remove
     knife storage volume show
 
+# FUTURE
+
+Only XtremIO is supported for now. Support for other arrays, such as Unity, VMAX,  will be added later.
+
 # TEST
 
     ./sanity_test.sh
 
+# CONTRIBUTION 
+
 # LICENSE
 
-The project is licensed under the Apache 2.0 License - refer to [LICENSE](LICENSE) for details.
+The project is licensed under the MIT License - refer to [LICENSE](LICENSE) for details.
 
-# KNOWN PROBLEMS:
+# KNOWN PROBLEM:
 
-1. Only XtremIO is supported for now. Support for other arrays will be added later.
-
-2. XtremIO implements a different LUN mapping mechanism, which is volume based. Because of this, it is not able to get an overview of all existing LUN maps for an initiator group through one API call. To work around the problem, all existing mappings will be checked, and this costs quite some time.
+* XtremIO implements a different LUN mapping mechanism, which is volume based. Because of this, it is not able to get an overview of all existing LUN maps for an initiator group through one API call. To work around the problem, all existing mappings will be checked, and this costs quite some time.
