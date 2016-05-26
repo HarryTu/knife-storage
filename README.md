@@ -80,4 +80,3 @@ The project is licensed under the MIT License - refer to [LICENSE](LICENSE) for 
 
 # KNOWN PROBLEM:
 
-* XtremIO implements a different LUN mapping mechanism, which is volume based. Because of this, it is not able to get an overview of all existing LUN maps for an initiator group through one API call. To work around the problem, all existing mappings will be checked, and this costs quite some time.
