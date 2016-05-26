@@ -1,0 +1,9 @@
+# Sample configuration for enabling knife stroage plugin
+current_dir = File.dirname(__FILE__)
+knife[:client_key] = "#{current_dir}/xio_key.pem"
+knife[:client_cert] = "#{current_dir}/xio_cert.pem"
+knife[:client_key_pass] = 'Y0urpassword!'
+knife[:array_host] = '192.168.1.1'
+knife[:array_user] = 'admin'
+knife[:array_pass] = 'Credent1al!'
+knife[:array_type] = 'XtremIO'
