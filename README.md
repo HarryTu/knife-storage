@@ -23,14 +23,14 @@ After generating required key/certification/passphase, they should be configured
 
 Several other parameters, which can be specified throug either CLI options or knife.rb configuration, are also required to run the plugin. 
 
-1. CLI Options
+CLI Options:
 
     --array-host HOST            Storage Array Hostname or IP Address
     --array-user USERNAME        The user name for the storage array
     --array-pass PASSWORD        The password for the storage array
     --array-type TYPE            Storage array type: XtremIO/VMAX/VNX/etc.
 
-2. knife.rb
+knife.rb:
 
     knife[:array_host] = '192.168.1.1'
     knife[:array_user] = 'admin'
