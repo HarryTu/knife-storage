@@ -78,5 +78,5 @@ Create a fork of the project into your own reposity. Make all your necessary cha
 
 The project is licensed under the MIT License - refer to [LICENSE](LICENSE) for details.
 
-# KNOWN PROBLEM:
+# KNOWN PROBLEM
 
